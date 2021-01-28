@@ -7,9 +7,9 @@ package reap
 import (
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/support/db"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/support/db"
 )
 
 // System represents the history reaping subsystem of horizon.

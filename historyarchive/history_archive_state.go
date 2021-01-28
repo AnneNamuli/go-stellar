@@ -9,8 +9,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const NumLevels = 11

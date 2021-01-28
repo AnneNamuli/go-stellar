@@ -19,7 +19,7 @@ Compile and install Horizon as described in the [Horizon development guide](deve
 Horizon uses two Go tools you'll need to install:
 1. [go-bindata](github.com/kevinburke/go-bindata) is used to bundle test data
 
-After the above are installed, run `go generate github.com/stellar/go/services/horizon/...`.
+After the above are installed, run `go generate github.com/AnneNamuli/go-stellar/services/horizon/...`.
 
 ## <a name="scenarios"></a> Adding, rebuilding and using test scenarios
 
@@ -55,11 +55,11 @@ close_ledger
 payment :scott, :bartek,  [:native, 5]
 ```
 
-You can find more recipes in [`scc` examples](https://github.com/stellar/stellar_core_commander/tree/84d5ffb97202ecc3a0ed34a739c98e69536c0c2c/examples) and [horizon test scenarios](https://github.com/stellar/go/tree/master/services/horizon/internal/test/scenarios).
+You can find more recipes in [`scc` examples](https://github.com/stellar/stellar_core_commander/tree/84d5ffb97202ecc3a0ed34a739c98e69536c0c2c/examples) and [horizon test scenarios](https://github.com/AnneNamuli/go-stellar/tree/master/services/horizon/internal/test/scenarios).
 
 ### Rebuilding scenarios
 
-1. Create a new or modify existing recipe. All new recipes should be added to [horizon test scenarios](https://github.com/stellar/go/tree/master/services/horizon/internal/test/scenarios) directory.
+1. Create a new or modify existing recipe. All new recipes should be added to [horizon test scenarios](https://github.com/AnneNamuli/go-stellar/tree/master/services/horizon/internal/test/scenarios) directory.
 2. In `stellar/go` repository root directory run `./services/horizon/internal/scripts/build_test_scenarios.bash`.
 3. The command above will rebuild all test scenarios. If you need to rebuild only one scenario modify `PACKAGES` environment variable temporarily in the script.
 
@@ -94,12 +94,12 @@ go test ./...
 or run individual Horizon tests like so, providing the expected arguments:
 
 ```bash
-go test github.com/stellar/go/services/horizon/...
+go test github.com/AnneNamuli/go-stellar/services/horizon/...
 ```
 
 ## <a name="logging"></a> Logging
 
-All logging infrastructure is in the `github.com/stellar/go/tree/master/services/horizon/internal/log` package.  This package provides "level-based" logging:  Each logging statement has a severity, one of "Debug", "Info", "Warn", "Error" or "Panic".  The Horizon server has a configured level "filter", specified either using the `--log-level` command line flag or the `LOG_LEVEL` environment variable.  When a logging statement is executed, the statements declared severity is checked against the filter and will only be emitted if the severity of the statement is equal or higher severity than the filter.
+All logging infrastructure is in the `github.com/AnneNamuli/go-stellar/tree/master/services/horizon/internal/log` package.  This package provides "level-based" logging:  Each logging statement has a severity, one of "Debug", "Info", "Warn", "Error" or "Panic".  The Horizon server has a configured level "filter", specified either using the `--log-level` command line flag or the `LOG_LEVEL` environment variable.  When a logging statement is executed, the statements declared severity is checked against the filter and will only be emitted if the severity of the statement is equal or higher severity than the filter.
 
 In addition, the logging subsystem has support for fields: Arbitrary key-value pairs that will be associated with an entry to allow for filtering and additional contextual information.
 

@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/network"
-	supportlog "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/keypair"
+	"github.com/AnneNamuli/go-stellar/network"
+	supportlog "github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

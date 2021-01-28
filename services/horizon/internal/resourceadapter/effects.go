@@ -3,11 +3,11 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/protocols/horizon/effects"
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/base"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/effects"
+	horizonContext "github.com/AnneNamuli/go-stellar/services/horizon/internal/context"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
 )
 
 var EffectTypeNames = map[history.EffectType]string{

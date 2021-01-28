@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stellar/go/amount"
-	protocol "github.com/stellar/go/protocols/horizon"
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/amount"
+	protocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	horizonContext "github.com/AnneNamuli/go-stellar/services/horizon/internal/context"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func PopulateLedger(ctx context.Context, dest *protocol.Ledger, row history.Ledger) {

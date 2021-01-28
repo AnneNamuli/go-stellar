@@ -1,8 +1,8 @@
 package orderbook
 
 import (
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const (

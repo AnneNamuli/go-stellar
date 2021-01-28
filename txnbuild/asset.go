@@ -3,8 +3,8 @@ package txnbuild
 import (
 	"bytes"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // AssetType represents the type of a Stellar asset.

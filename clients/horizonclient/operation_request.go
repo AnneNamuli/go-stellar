@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/stellar/go/protocols/horizon/operations"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/operations"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the OperationRequest struct.

@@ -1,7 +1,7 @@
 package txnbuild
 
 import (
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

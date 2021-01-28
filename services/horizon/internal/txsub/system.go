@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/txsub/sequence"
+	"github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 type HorizonDB interface {

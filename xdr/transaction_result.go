@@ -1,6 +1,6 @@
 package xdr
 
-import "github.com/stellar/go/support/errors"
+import "github.com/AnneNamuli/go-stellar/support/errors"
 
 // Successful returns true if the transaction succeeded
 func (r TransactionResult) Successful() bool {

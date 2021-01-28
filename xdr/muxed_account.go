@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/stellar/go/strkey"
+	"github.com/AnneNamuli/go-stellar/strkey"
 )
 
 func MustMuxedAddress(address string) MuxedAccount {

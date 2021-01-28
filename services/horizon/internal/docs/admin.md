@@ -22,7 +22,7 @@ Horizon is dependent upon a stellar-core server.  Horizon needs access to both t
 
 ## Installing
 
-To install Horizon, you have a choice: either downloading a [prebuilt release for your target architecture](https://github.com/stellar/go/releases) and operation system, or [building Horizon yourself](#Building).  When either approach is complete, you will find yourself with a directory containing a file named `horizon`.  This file is a native binary.
+To install Horizon, you have a choice: either downloading a [prebuilt release for your target architecture](https://github.com/AnneNamuli/go-stellar/releases) and operation system, or [building Horizon yourself](#Building).  When either approach is complete, you will find yourself with a directory containing a file named `horizon`.  This file is a native binary.
 
 After building or unpacking Horizon, you simply need to copy the native binary into a directory that is part of your PATH.  Most unix-like systems have `/usr/local/bin` in PATH by default, so unless you have a preference or know better, we recommend you copy the binary there.
 
@@ -39,7 +39,7 @@ Should you decide not to use one of our prebuilt releases, you may instead build
 - [mercurial](https://www.mercurial-scm.org/)
 
 1. See the details in [README.md](../../../../README.md#dependencies) for installing dependencies.
-2. Compile the Horizon binary: `go install github.com/stellar/go/services/horizon`. You should see the `horizon` binary in `$GOPATH/bin`.
+2. Compile the Horizon binary: `go install github.com/AnneNamuli/go-stellar/services/horizon`. You should see the `horizon` binary in `$GOPATH/bin`.
 3. Add Go binaries to your PATH in your `bashrc` or equivalent, for easy access: `export PATH=${GOPATH//://bin:}/bin:$PATH`
 
 Open a new terminal. Confirm everything worked by running `horizon --help` successfully.
@@ -149,7 +149,7 @@ It's possible that the progress logs (see below) will not show anything new for 
 
 If you see that ingestion is not proceeding for a very long period of time:
 1. Check the RAM usage on the machine. It's possible that the system ran out of RAM and is using swap memory, which is extremely slow.
-2. If above is not the case, file a [new issue](https://github.com/stellar/go/issues/new/choose) in this repository.
+2. If above is not the case, file a [new issue](https://github.com/AnneNamuli/go-stellar/issues/new/choose) in this repository.
 
 ### CPU usage goes high every few minutes
 

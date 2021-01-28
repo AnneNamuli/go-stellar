@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/operationfeestats"
-	"github.com/stellar/go/services/horizon/internal/test/scenarios"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/schema"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/operationfeestats"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test/scenarios"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
 )
 
 // CoreSession returns a db.Session instance pointing at the stellar core test database

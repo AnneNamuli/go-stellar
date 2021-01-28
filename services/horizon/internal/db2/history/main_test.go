@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestLatestLedger(t *testing.T) {

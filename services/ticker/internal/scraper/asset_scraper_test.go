@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"testing"
 
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
+	hProtocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
 	"github.com/stretchr/testify/assert"
 )
 

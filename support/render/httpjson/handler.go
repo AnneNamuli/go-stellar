@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http/httpdecode"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/http/httpdecode"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
 )
 
 var (

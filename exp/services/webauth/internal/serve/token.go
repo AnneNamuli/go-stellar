@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/support/http/httpdecode"
-	supportlog "github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/txnbuild"
+	"github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	"github.com/AnneNamuli/go-stellar/keypair"
+	"github.com/AnneNamuli/go-stellar/support/http/httpdecode"
+	supportlog "github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/support/render/httpjson"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
 	"gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

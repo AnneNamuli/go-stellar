@@ -11,9 +11,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/support/config"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/log"
 	"gopkg.in/tylerb/graceful.v1"
 )
 

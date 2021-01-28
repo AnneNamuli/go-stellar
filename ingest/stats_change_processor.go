@@ -1,7 +1,7 @@
 package ingest
 
 import (
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // StatsChangeProcessor is a state processors that counts number of changes types

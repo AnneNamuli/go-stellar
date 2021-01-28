@@ -7,10 +7,10 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/gorilla/schema"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/services/horizon/internal/assets"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/amount"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/assets"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // Validateable allow structs to define their own custom validations.

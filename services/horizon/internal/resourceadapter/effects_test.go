@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/test"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/effects"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

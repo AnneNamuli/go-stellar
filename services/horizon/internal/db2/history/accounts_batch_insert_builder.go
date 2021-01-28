@@ -1,8 +1,8 @@
 package history
 
 import (
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // accountsBatchInsertBuilder is a simple wrapper around db.BatchInsertBuilder

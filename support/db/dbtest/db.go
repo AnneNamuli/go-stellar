@@ -11,8 +11,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
-	"github.com/stellar/go/support/db/sqlutils"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/db/sqlutils"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 	"github.com/stretchr/testify/require"
 )
 

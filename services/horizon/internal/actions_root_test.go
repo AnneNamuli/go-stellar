@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestRootAction(t *testing.T) {

@@ -5,15 +5,15 @@ import (
 	"mime"
 	"net/http"
 
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/protocols/horizon"
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/services/horizon/internal/txsub"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon"
+	hProblem "github.com/AnneNamuli/go-stellar/services/horizon/internal/render/problem"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/resourceadapter"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/txsub"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 type SubmitTransactionHandler struct {

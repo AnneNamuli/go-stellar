@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const (

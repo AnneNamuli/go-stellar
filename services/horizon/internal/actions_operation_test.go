@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/protocols/horizon/operations"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/effects"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/operations"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestOperationActions_Index(t *testing.T) {

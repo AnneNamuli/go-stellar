@@ -1,7 +1,7 @@
 package ledgerbackend
 
 import (
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // LedgerBackend represents the interface to a ledger data store.

@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/prometheus/client_golang/prometheus"
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	hProtocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
 )
 
 // Orderbook tracks top-level orderbook statistics.

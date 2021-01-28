@@ -5,8 +5,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // AccountByAddress loads a row from `history_accounts`, by address
@@ -33,7 +33,7 @@ func (q *Q) CreateAccounts(addresses []string, batchSize int) (map[string]int64,
 	}
 
 	// sort assets before inserting rows into history_assets to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/stellar/go/issues/2370
+	// https://github.com/AnneNamuli/go-stellar/issues/2370
 	sort.Strings(addresses)
 	for _, address := range addresses {
 		err := builder.Row(map[string]interface{}{

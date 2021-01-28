@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/historyarchive"
-	horizoncmd "github.com/stellar/go/services/horizon/cmd"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	"github.com/stellar/go/services/horizon/internal/test/integration"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/db/dbtest"
-	"github.com/stellar/go/txnbuild"
+	"github.com/AnneNamuli/go-stellar/historyarchive"
+	horizoncmd "github.com/AnneNamuli/go-stellar/services/horizon/cmd"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/schema"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test/integration"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/db/dbtest"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
 )
 
 func initializeDBIntegrationTest(t *testing.T) (itest *integration.Test, reachedLedger int32) {

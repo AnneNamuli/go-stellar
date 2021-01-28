@@ -18,14 +18,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 
-	sdk "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/clients/stellarcore"
-	"github.com/stellar/go/keypair"
-	proto "github.com/stellar/go/protocols/horizon"
-	horizon "github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/support/db/dbtest"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	sdk "github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	"github.com/AnneNamuli/go-stellar/clients/stellarcore"
+	"github.com/AnneNamuli/go-stellar/keypair"
+	proto "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	horizon "github.com/AnneNamuli/go-stellar/services/horizon/internal"
+	"github.com/AnneNamuli/go-stellar/support/db/dbtest"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const (

@@ -3,9 +3,9 @@ package ingest
 import (
 	"testing"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestGetLatestLedger(t *testing.T) {

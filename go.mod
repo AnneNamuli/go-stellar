@@ -1,4 +1,4 @@
-module github.com/stellar/go
+module github.com/AnneNamuli/go-stellar
 
 go 1.13
 

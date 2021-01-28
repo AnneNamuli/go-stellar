@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // LedgerTransactionReader reads transactions for a given ledger sequence from a backend.

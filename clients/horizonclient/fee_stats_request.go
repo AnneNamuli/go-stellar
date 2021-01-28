@@ -1,6 +1,6 @@
 package horizonclient
 
-import "github.com/stellar/go/support/errors"
+import "github.com/AnneNamuli/go-stellar/support/errors"
 
 // BuildURL returns the url for getting fee stats about a running horizon instance
 func (fr feeStatsRequest) BuildURL() (endpoint string, err error) {

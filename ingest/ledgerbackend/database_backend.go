@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"sort"
 
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const (

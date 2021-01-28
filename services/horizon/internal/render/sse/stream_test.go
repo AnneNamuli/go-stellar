@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"testing"
 
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/support/test"
+	hProblem "github.com/AnneNamuli/go-stellar/services/horizon/internal/render/problem"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/support/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

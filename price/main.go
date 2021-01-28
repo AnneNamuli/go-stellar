@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 var (

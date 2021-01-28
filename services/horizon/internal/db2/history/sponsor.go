@@ -2,7 +2,7 @@ package history
 
 import (
 	"github.com/guregu/null"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func ledgerEntrySponsorToNullString(entry xdr.LedgerEntry) null.String {

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	hProtocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
 	"github.com/stretchr/testify/assert"
 )
 

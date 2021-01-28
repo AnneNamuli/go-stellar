@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/exp/support/pipeline"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 	"github.com/stretchr/testify/assert"
 )
 

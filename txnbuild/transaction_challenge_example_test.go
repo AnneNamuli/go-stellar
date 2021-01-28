@@ -5,11 +5,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/txnbuild"
+	"github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	"github.com/AnneNamuli/go-stellar/keypair"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
 )
 
 var serverAccount, _ = keypair.ParseFull("SCDXPYDGKV5HOAGVZN3FQSS5FKUPP5BAVBWH4FXKTAWAC24AE4757JSI")

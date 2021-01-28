@@ -2,11 +2,11 @@ package history
 
 import (
 	"database/sql"
-	"github.com/stellar/go/amount"
+	"github.com/AnneNamuli/go-stellar/amount"
 	"math/big"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 type priceLevel struct {

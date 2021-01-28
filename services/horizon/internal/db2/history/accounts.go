@@ -5,9 +5,9 @@ import (
 	"github.com/guregu/null"
 	"github.com/lib/pq"
 
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // IsAuthRequired returns true if the account has the "AUTH_REQUIRED" option

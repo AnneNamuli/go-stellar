@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	. "github.com/stellar/go/services/horizon/internal/test/transactions"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/ingest"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	. "github.com/AnneNamuli/go-stellar/services/horizon/internal/test/transactions"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 type EffectsProcessorTestSuiteLedger struct {
@@ -1612,7 +1612,7 @@ func TestOperationEffectsSetOptionsSignersOrder(t *testing.T) {
 	tt.Equal(expected, effects)
 }
 
-// Regression for https://github.com/stellar/go/issues/2136
+// Regression for https://github.com/AnneNamuli/go-stellar/issues/2136
 func TestOperationEffectsSetOptionsSignersNoUpdated(t *testing.T) {
 	tt := assert.New(t)
 	transaction := ingest.LedgerTransaction{

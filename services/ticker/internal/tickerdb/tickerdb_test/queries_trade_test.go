@@ -9,8 +9,8 @@ import (
 
 	_ "github.com/lib/pq"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
-	"github.com/stellar/go/support/db/dbtest"
+	"github.com/AnneNamuli/go-stellar/services/ticker/internal/tickerdb"
+	"github.com/AnneNamuli/go-stellar/support/db/dbtest"
 	"github.com/stretchr/testify/require"
 )
 

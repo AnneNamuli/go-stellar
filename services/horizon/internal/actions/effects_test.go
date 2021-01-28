@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/support/http/httptest"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/support/http/httptest"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
 )
 
 func TestEffectsQuery_BadOperationID(t *testing.T) {

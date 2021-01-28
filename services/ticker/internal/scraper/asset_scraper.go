@@ -13,10 +13,10 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	horizonclient "github.com/stellar/go/clients/horizonclient"
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/ticker/internal/utils"
-	"github.com/stellar/go/support/errors"
+	horizonclient "github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	hProtocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/services/ticker/internal/utils"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // shouldDiscardAsset maps the criteria for discarding an asset from the asset index

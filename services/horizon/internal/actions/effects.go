@@ -3,14 +3,14 @@ package actions
 import (
 	"net/http"
 
-	"github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/context"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/resourceadapter"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
 )
 
 // EffectsQuery query struct for effects end-points

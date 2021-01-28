@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	sdk "github.com/stellar/go/clients/horizonclient"
-	hEffects "github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/protocols/horizon/operations"
-	"github.com/stellar/go/services/horizon/internal/test/integration"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	sdk "github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	hEffects "github.com/AnneNamuli/go-stellar/protocols/horizon/effects"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/operations"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test/integration"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func TestClaimableBalanceCreationOperationsAndEffects(t *testing.T) {

@@ -34,7 +34,7 @@ A. a subprocess of Horizon, streaming ledger data over a filesystem pipe. This i
 ![Horizon with Captive Core](HorizonWithCaptiveCore.png)
     
 B. an experimental remote captive core server, to which Horizon connects through HTTP (see Horizon's `--remote-captive-core-url` flag).
-    For more information on installing the remote Captive Core server, please take a look at [captivecore](https://github.com/stellar/go/tree/master/exp/services/captivecore):
+    For more information on installing the remote Captive Core server, please take a look at [captivecore](https://github.com/AnneNamuli/go-stellar/tree/master/exp/services/captivecore):
 
 ![Horizon with Remote Captive Core](HorizonWithRemoteCaptiveCore.png)
 
@@ -116,7 +116,7 @@ And you're ready to upgrade.
 **Note**: Until the v2.0-beta binaries are released, you'll need to build Horizon from the `release-horizon-v2.0.0-beta` branch. That's pretty simple, given a valid Go environment:
 
 ```bash
-git clone https://github.com/stellar/go monorepo && cd monorepo
+git clone https://github.com/AnneNamuli/go-stellar monorepo && cd monorepo
 git checkout release-horizon-v2.0.0-beta
 go install -v ./services/horizon
 sudo cp $(go env GOPATH)/bin/horizon $(which stellar-horizon)
@@ -207,10 +207,10 @@ The latest released (but experimental) version of the Captive Core API can be in
 sudo apt install stellar-captive-core stellar-captive-core-api
 ```
 
-Alternatively, you can install the bleeding edge [from source](https://github.com/stellar/go/exp/services/captivecore):
+Alternatively, you can install the bleeding edge [from source](https://github.com/AnneNamuli/go-stellar/exp/services/captivecore):
 
 ```bash
-git clone https://github.com/stellar/go monorepo && cd monorepo
+git clone https://github.com/AnneNamuli/go-stellar monorepo && cd monorepo
 git checkout release-horizon-v2.0.0-beta
 go install -v ./exp/services/captivecore
 sudo cp $(go env GOPATH)/bin/captivecore /usr/bin/stellar-captive-core-api

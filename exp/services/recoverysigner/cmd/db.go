@@ -7,10 +7,10 @@ import (
 
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/spf13/cobra"
-	dbpkg "github.com/stellar/go/exp/services/recoverysigner/internal/db"
-	"github.com/stellar/go/exp/services/recoverysigner/internal/db/dbmigrate"
-	"github.com/stellar/go/support/config"
-	supportlog "github.com/stellar/go/support/log"
+	dbpkg "github.com/AnneNamuli/go-stellar/exp/services/recoverysigner/internal/db"
+	"github.com/AnneNamuli/go-stellar/exp/services/recoverysigner/internal/db/dbmigrate"
+	"github.com/AnneNamuli/go-stellar/support/config"
+	supportlog "github.com/AnneNamuli/go-stellar/support/log"
 )
 
 type DBCommand struct {

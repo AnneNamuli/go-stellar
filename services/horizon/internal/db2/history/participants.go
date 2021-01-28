@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/stellar/go/support/db"
+	"github.com/AnneNamuli/go-stellar/support/db"
 )
 
 // QParticipants defines ingestion participant related queries.

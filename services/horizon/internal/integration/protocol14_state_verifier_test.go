@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/horizon/internal/test/integration"
-	"github.com/stellar/go/txnbuild"
+	"github.com/AnneNamuli/go-stellar/keypair"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test/integration"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
 	"github.com/stretchr/testify/assert"
 )
 

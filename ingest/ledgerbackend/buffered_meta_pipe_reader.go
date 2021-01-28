@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const (

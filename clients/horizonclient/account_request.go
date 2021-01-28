@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the AccountRequest struct.

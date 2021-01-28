@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/log"
 )
 
 var (

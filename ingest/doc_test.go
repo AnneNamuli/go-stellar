@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/stellar/go/historyarchive"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/historyarchive"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // Example_ledgerentrieshistoryarchive demonstrates how to stream all ledger

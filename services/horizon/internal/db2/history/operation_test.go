@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestOperationQueries(t *testing.T) {

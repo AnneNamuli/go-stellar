@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestAddOperationParticipants(t *testing.T) {

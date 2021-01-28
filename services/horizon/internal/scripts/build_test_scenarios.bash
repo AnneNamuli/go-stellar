@@ -3,10 +3,10 @@ set -e
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 GOTOP="$( cd "$DIR/../../../../../../../.." && pwd )"
-PACKAGES=$(find $GOTOP/src/github.com/stellar/go/services/horizon/internal/test/scenarios -iname '*.rb' -not -name '_common_accounts.rb')
-#PACKAGES=$(find $GOTOP/src/github.com/stellar/go/services/horizon/internal/test/scenarios -iname 'failed_transactions.rb')
+PACKAGES=$(find $GOTOP/src/github.com/AnneNamuli/go-stellar/services/horizon/internal/test/scenarios -iname '*.rb' -not -name '_common_accounts.rb')
+#PACKAGES=$(find $GOTOP/src/github.com/AnneNamuli/go-stellar/services/horizon/internal/test/scenarios -iname 'failed_transactions.rb')
 
-go install github.com/stellar/go/services/horizon
+go install github.com/AnneNamuli/go-stellar/services/horizon
 
 dropdb hayashi_scenarios --if-exists
 createdb hayashi_scenarios
@@ -47,5 +47,5 @@ done
 
 
 # commit new sql files to bindata
-go generate github.com/stellar/go/services/horizon/internal/test/scenarios
-# go test github.com/stellar/go/services/horizon/internal/ingest
+go generate github.com/AnneNamuli/go-stellar/services/horizon/internal/test/scenarios
+# go test github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest

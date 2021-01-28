@@ -1,7 +1,7 @@
 package ingest
 
 import (
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // ErrNotFound is returned when the requested ledger is not found

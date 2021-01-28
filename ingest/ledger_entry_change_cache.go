@@ -3,8 +3,8 @@ package ingest
 import (
 	"sync"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // LedgerEntryChangeCache is a cache of ledger entry changes that squashes all

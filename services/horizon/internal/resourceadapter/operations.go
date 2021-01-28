@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/protocols/horizon/operations"
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/operations"
+	horizonContext "github.com/AnneNamuli/go-stellar/services/horizon/internal/context"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // NewOperation creates a new operation resource, finding the appropriate type to use
