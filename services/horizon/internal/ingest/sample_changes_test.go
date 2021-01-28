@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stellar/go/historyarchive"
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
-	logpkg "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/historyarchive"
+	"github.com/AnneNamuli/go-stellar/ingest"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest/processors"
+	logpkg "github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const (

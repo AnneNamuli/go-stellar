@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/resourceadapter"
 )
 
 type CoreSettings struct {

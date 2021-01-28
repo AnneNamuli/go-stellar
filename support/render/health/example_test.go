@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	supporthttp "github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/health"
-	"github.com/stellar/go/support/render/httpjson"
+	supporthttp "github.com/AnneNamuli/go-stellar/support/http"
+	"github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/support/render/health"
+	"github.com/AnneNamuli/go-stellar/support/render/httpjson"
 )
 
 func ExampleResponse() {

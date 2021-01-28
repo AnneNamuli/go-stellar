@@ -3,8 +3,8 @@ package history
 import (
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 func (q *Q) GetAccountSignersByAccountID(id string) ([]AccountSigner, error) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	logpkg "github.com/AnneNamuli/go-stellar/support/log"
 )
 
 const (

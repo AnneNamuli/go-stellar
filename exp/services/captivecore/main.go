@@ -9,13 +9,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/stellar/go/exp/services/captivecore/internal"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db"
-	supporthttp "github.com/stellar/go/support/http"
-	supportlog "github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/exp/services/captivecore/internal"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/network"
+	"github.com/AnneNamuli/go-stellar/support/config"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	supporthttp "github.com/AnneNamuli/go-stellar/support/http"
+	supportlog "github.com/AnneNamuli/go-stellar/support/log"
 )
 
 func main() {

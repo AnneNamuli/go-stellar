@@ -3,12 +3,12 @@ package resourceadapter
 import (
 	"encoding/base64"
 	"github.com/guregu/null"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 	"testing"
 
-	. "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/test"
+	. "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,8 +6,8 @@
 </div>
 <p align="center">
 <a href="https://circleci.com/gh/stellar/go"><img alt="Build Status" src="https://circleci.com/gh/stellar/go.svg?style=shield" /></a>
-<a href="https://godoc.org/github.com/stellar/go"><img alt="GoDoc" src="https://godoc.org/github.com/stellar/go?status.svg" /></a>
-<a href="https://goreportcard.com/report/github.com/stellar/go"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/stellar/go" /></a>
+<a href="https://godoc.org/github.com/AnneNamuli/go-stellar"><img alt="GoDoc" src="https://godoc.org/github.com/AnneNamuli/go-stellar?status.svg" /></a>
+<a href="https://goreportcard.com/report/github.com/AnneNamuli/go-stellar"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/AnneNamuli/go-stellar" /></a>
 </p>
 
 This repo is the home for all of the public Go code produced by the [Stellar Development Foundation].
@@ -49,7 +49,7 @@ Each of these directories have their own README file that explain further the na
 
 ### Other packages
 
-In addition to the packages described above, this repository contains various packages related to working with the Stellar network from a go program.  It's recommended that you use [godoc](https://godoc.org/github.com/stellar/go#pkg-subdirectories) to browse the documentation for each.
+In addition to the packages described above, this repository contains various packages related to working with the Stellar network from a go program.  It's recommended that you use [godoc](https://godoc.org/github.com/AnneNamuli/go-stellar#pkg-subdirectories) to browse the documentation for each.
 
 
 ## Package source layout

@@ -3,7 +3,7 @@ package history
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/stellar/go/ingest"
+	"github.com/AnneNamuli/go-stellar/ingest"
 )
 
 type MockTransactionsBatchInsertBuilder struct {

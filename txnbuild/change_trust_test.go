@@ -3,7 +3,7 @@ package txnbuild
 import (
 	"testing"
 
-	"github.com/stellar/go/network"
+	"github.com/AnneNamuli/go-stellar/network"
 	"github.com/stretchr/testify/assert"
 )
 

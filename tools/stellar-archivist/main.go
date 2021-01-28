@@ -12,8 +12,8 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/historyarchive"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/historyarchive"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 const checkpointFrequency = uint32(64)

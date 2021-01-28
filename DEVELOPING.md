@@ -22,7 +22,7 @@ To run some tests these tools are also required:
 Check the code out anywhere, using a `GOPATH` is not required.
 
 ```
-git clone https://github.com/stellar/go
+git clone https://github.com/AnneNamuli/go-stellar
 ```
 
 ## Installing dependencies
@@ -112,4 +112,4 @@ git checkout <branch>
 golistcmp go.list.master <(go list -m -json all)
 ```
 
-[golistcmp]: https://github.com/stellar/golistcmp
+[golistcmp]: https://github.com/AnneNamuli/go-stellarlistcmp

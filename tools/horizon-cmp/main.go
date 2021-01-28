@@ -14,11 +14,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	client "github.com/stellar/go/clients/horizonclient"
-	protocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/errors"
-	slog "github.com/stellar/go/support/log"
-	cmp "github.com/stellar/go/tools/horizon-cmp/internal"
+	client "github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	protocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	slog "github.com/AnneNamuli/go-stellar/support/log"
+	cmp "github.com/AnneNamuli/go-stellar/tools/horizon-cmp/internal"
 )
 
 // maxLevels defines the maximum number of levels deep the crawler

@@ -6,8 +6,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	migrate "github.com/rubenv/sql-migrate"
-	bdata "github.com/stellar/go/services/ticker/internal/tickerdb/migrations"
-	"github.com/stellar/go/support/db"
+	bdata "github.com/AnneNamuli/go-stellar/services/ticker/internal/tickerdb/migrations"
+	"github.com/AnneNamuli/go-stellar/support/db"
 )
 
 //go:generate go-bindata -nometadata -ignore .+\.go$ -pkg bdata -o migrations/bindata.go ./...

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // SellingBuyingAssetQueryParams query struct for end-points requiring a selling

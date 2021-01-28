@@ -3,10 +3,10 @@ package txnbuild
 import (
 	"crypto/sha256"
 	"encoding/base64"
-	"github.com/stellar/go/network"
+	"github.com/AnneNamuli/go-stellar/network"
 	"testing"
 
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

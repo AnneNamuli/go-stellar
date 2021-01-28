@@ -8,9 +8,9 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/ingest"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
 )
 
 func TestTransactionQueries(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/ingest"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest/processors"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 func TestStressTestStateTestSuite(t *testing.T) {

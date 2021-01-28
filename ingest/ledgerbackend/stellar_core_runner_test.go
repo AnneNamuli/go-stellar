@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/support/log"
 )
 
 func TestGenerateConfig(t *testing.T) {

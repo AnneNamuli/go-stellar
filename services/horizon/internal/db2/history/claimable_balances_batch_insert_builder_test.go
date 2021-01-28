@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func TestAddClaimableBalance(t *testing.T) {

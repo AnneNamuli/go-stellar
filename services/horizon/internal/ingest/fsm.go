@@ -7,12 +7,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/ingest"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest/processors"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	logpkg "github.com/AnneNamuli/go-stellar/support/log"
 )
 
 var (

@@ -1,7 +1,7 @@
 package ticker
 
 import (
-	"github.com/stellar/go/services/ticker/internal/scraper"
+	"github.com/AnneNamuli/go-stellar/services/ticker/internal/scraper"
 )
 
 // MarketSummary represents a summary of statistics of all valid markets

@@ -3,9 +3,9 @@ package history
 import (
 	"time"
 
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // InsertTrade represents the arguments to TradeBatchInsertBuilder.Add() which is used to insert

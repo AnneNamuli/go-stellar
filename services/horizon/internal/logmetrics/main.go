@@ -3,7 +3,7 @@ package logmetrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/support/log"
 )
 
 // Metrics is a logrus hook-compliant struct that records metrics about logging

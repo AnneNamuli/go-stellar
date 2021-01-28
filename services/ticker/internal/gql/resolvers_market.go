@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
-	"github.com/stellar/go/services/ticker/internal/utils"
+	"github.com/AnneNamuli/go-stellar/services/ticker/internal/tickerdb"
+	"github.com/AnneNamuli/go-stellar/services/ticker/internal/utils"
 )
 
 // Markets resolves the markets() GraphQL query.

@@ -1,11 +1,11 @@
 FROM golang:1.14-stretch AS builder
 
-WORKDIR /go/src/github.com/stellar/go
+WORKDIR /go/src/github.com/AnneNamuli/go-stellar
 COPY go.mod go.sum ./
 RUN go mod download
 COPY . ./
-RUN go install github.com/stellar/go/services/horizon
-RUN go install github.com/stellar/go/exp/services/captivecore
+RUN go install github.com/AnneNamuli/go-stellar/services/horizon
+RUN go install github.com/AnneNamuli/go-stellar/exp/services/captivecore
 
 FROM ubuntu:18.04
 

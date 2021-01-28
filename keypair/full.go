@@ -5,8 +5,8 @@ import (
 	"crypto/ed25519"
 	"encoding/base64"
 
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/strkey"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 type Full struct {

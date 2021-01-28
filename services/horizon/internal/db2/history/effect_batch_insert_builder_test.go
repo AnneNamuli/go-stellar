@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
 )
 
 func TestAddEffect(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest/processors"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 func TestIngestHistoryRangeStateTestSuite(t *testing.T) {

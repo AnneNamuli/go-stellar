@@ -5,8 +5,8 @@ import (
 
 	"github.com/lib/pq"
 	"github.com/spf13/cobra"
-	ticker "github.com/stellar/go/services/ticker/internal"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
+	ticker "github.com/AnneNamuli/go-stellar/services/ticker/internal"
+	"github.com/AnneNamuli/go-stellar/services/ticker/internal/tickerdb"
 )
 
 var ShouldStream bool

@@ -9,11 +9,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	apkg "github.com/stellar/go/support/app"
-	support "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/schema"
+	apkg "github.com/AnneNamuli/go-stellar/support/app"
+	support "github.com/AnneNamuli/go-stellar/support/config"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/log"
 	"github.com/stellar/throttled"
 )
 
@@ -63,13 +63,13 @@ func checkMigrations(config Config) {
 	if len(migrationsToApplyUp) > 0 {
 		stdLog.Printf(`There are %v migrations to apply in the "up" direction.`, len(migrationsToApplyUp))
 		stdLog.Printf("The necessary migrations are: %v", migrationsToApplyUp)
-		stdLog.Printf("A database migration is required to run this version (%v) of Horizon. Run \"horizon db migrate up\" to update your DB. Consult the Changelog (https://github.com/stellar/go/blob/master/services/horizon/CHANGELOG.md) for more information.", apkg.Version())
+		stdLog.Printf("A database migration is required to run this version (%v) of Horizon. Run \"horizon db migrate up\" to update your DB. Consult the Changelog (https://github.com/AnneNamuli/go-stellar/blob/master/services/horizon/CHANGELOG.md) for more information.", apkg.Version())
 		os.Exit(1)
 	}
 
 	nMigrationsDown := schema.GetNumMigrationsDown(config.DatabaseURL)
 	if nMigrationsDown > 0 {
-		stdLog.Printf("A database migration DOWN to an earlier version of the schema is required to run this version (%v) of Horizon. Consult the Changelog (https://github.com/stellar/go/blob/master/services/horizon/CHANGELOG.md) for more information.", apkg.Version())
+		stdLog.Printf("A database migration DOWN to an earlier version of the schema is required to run this version (%v) of Horizon. Consult the Changelog (https://github.com/AnneNamuli/go-stellar/blob/master/services/horizon/CHANGELOG.md) for more information.", apkg.Version())
 		stdLog.Printf("In order to migrate the database DOWN, using the HIGHEST version number of Horizon you have installed (not this binary), run \"horizon db migrate down %v\".", nMigrationsDown)
 		os.Exit(1)
 	}

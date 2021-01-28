@@ -11,15 +11,15 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/assert"
 
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/xdr"
+	horizonContext "github.com/AnneNamuli/go-stellar/services/horizon/internal/context"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func TestGetTransactionID(t *testing.T) {
@@ -255,7 +255,7 @@ func TestActionGetPageQuery(t *testing.T) {
 	_, err = GetPageQuery(ledgerState, r)
 	tt.Assert.Error(err)
 
-	// regression: https://github.com/stellar/go/services/horizon/internal/issues/372
+	// regression: https://github.com/AnneNamuli/go-stellar/services/horizon/internal/issues/372
 	// (limit of 0 turns into 10)
 	makeTestActionRequest("/?limit=0", nil)
 	_, err = GetPageQuery(ledgerState, r)
@@ -282,7 +282,7 @@ func TestGetPageQuery(t *testing.T) {
 	_, err = GetPageQuery(ledgerState, r)
 	tt.Assert.Error(err)
 
-	// regression: https://github.com/stellar/go/services/horizon/internal/issues/372
+	// regression: https://github.com/AnneNamuli/go-stellar/services/horizon/internal/issues/372
 	// (limit of 0 turns into 10)
 	r = makeTestActionRequest("/?limit=0", nil)
 	_, err = GetPageQuery(ledgerState, r)
@@ -338,7 +338,7 @@ func TestGetURLParam(t *testing.T) {
 	r := makeTestActionRequest("/accounts/{account_id}/operations?limit=100", nil)
 
 	// simulates a request where the named param is not passed.
-	// Regression for https://github.com/stellar/go/issues/1965
+	// Regression for https://github.com/AnneNamuli/go-stellar/issues/1965
 	rctx := chi.RouteContext(r.Context())
 	rctx.URLParams.Keys = []string{
 		"account_id",

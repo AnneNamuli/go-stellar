@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/support/log"
 )
 
 // DefaultServiceHost is the default service host used with the default problem

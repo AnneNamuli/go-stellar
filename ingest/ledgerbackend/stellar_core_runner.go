@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/support/log"
 )
 
 type stellarCoreRunnerInterface interface {

@@ -16,13 +16,13 @@ import (
 	"github.com/sebest/xff"
 	"github.com/stellar/throttled"
 
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/paths"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/services/horizon/internal/txsub"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/actions"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/paths"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/render/sse"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/txsub"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
 )
 
 const maxAssetsForPathFinding = 15

@@ -3,8 +3,8 @@ package txsub
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
 )
 
 func TestGetIngestedTx(t *testing.T) {

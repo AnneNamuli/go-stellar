@@ -1,6 +1,6 @@
 package main
 
-import "github.com/stellar/go/services/horizon/cmd"
+import "github.com/AnneNamuli/go-stellar/services/horizon/cmd"
 
 func main() {
 	cmd.Execute()

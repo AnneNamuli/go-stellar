@@ -3,7 +3,7 @@ package processors
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/stellar/go/ingest"
+	"github.com/AnneNamuli/go-stellar/ingest"
 )
 
 var _ ChangeProcessor = (*MockChangeProcessor)(nil)

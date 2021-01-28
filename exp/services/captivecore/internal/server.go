@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/stellar/go/ingest/ledgerbackend"
-	supporthttp "github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/http/httpdecode"
-	supportlog "github.com/stellar/go/support/log"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	supporthttp "github.com/AnneNamuli/go-stellar/support/http"
+	"github.com/AnneNamuli/go-stellar/support/http/httpdecode"
+	supportlog "github.com/AnneNamuli/go-stellar/support/log"
 )
 
 func serializeResponse(

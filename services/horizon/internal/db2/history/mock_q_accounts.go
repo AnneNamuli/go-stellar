@@ -3,7 +3,7 @@ package history
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // MockQAccounts is a mock implementation of the QAccounts interface

@@ -6,8 +6,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/stellar/go/clients/horizonclient"
-	demo "github.com/stellar/go/txnbuild/cmd/demo/operations"
+	"github.com/AnneNamuli/go-stellar/clients/horizonclient"
+	demo "github.com/AnneNamuli/go-stellar/txnbuild/cmd/demo/operations"
 )
 
 // txerrorCmd represents the txerror command

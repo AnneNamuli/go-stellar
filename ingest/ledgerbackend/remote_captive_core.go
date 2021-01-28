@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // PrepareRangeResponse describes the status of the pending PrepareRange operation.

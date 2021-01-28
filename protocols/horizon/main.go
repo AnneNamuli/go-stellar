@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/base"
+	"github.com/AnneNamuli/go-stellar/strkey"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // KeyTypeNames maps from strkey version bytes into json string values to use in
@@ -630,7 +630,7 @@ type FeeDistribution struct {
 }
 
 // FeeStats represents a response of fees from horizon
-// To do: implement fee suggestions if agreement is reached in https://github.com/stellar/go/issues/926
+// To do: implement fee suggestions if agreement is reached in https://github.com/AnneNamuli/go-stellar/issues/926
 type FeeStats struct {
 	LastLedger          uint32  `json:"last_ledger,string"`
 	LastLedgerBaseFee   int64   `json:"last_ledger_base_fee,string"`

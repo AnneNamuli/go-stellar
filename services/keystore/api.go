@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/rs/cors"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/health"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/support/render/health"
+	"github.com/AnneNamuli/go-stellar/support/render/httpjson"
+	"github.com/AnneNamuli/go-stellar/support/render/problem"
 )
 
 func init() {

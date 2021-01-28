@@ -14,12 +14,12 @@ import (
 
 	"github.com/go-chi/chi"
 
-	"github.com/stellar/go/services/horizon/internal/actions"
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/actions"
+	horizonContext "github.com/AnneNamuli/go-stellar/services/horizon/internal/context"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ledger"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/render/sse"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/render/hal"
 )
 
 type testingFactory struct {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/effects"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // EffectHandler is a function that is called when a new effect is received

@@ -11,13 +11,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	horizon "github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	"github.com/stellar/go/services/horizon/internal/ingest"
-	support "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	hlog "github.com/stellar/go/support/log"
+	horizon "github.com/AnneNamuli/go-stellar/services/horizon/internal"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/schema"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest"
+	support "github.com/AnneNamuli/go-stellar/support/config"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	hlog "github.com/AnneNamuli/go-stellar/support/log"
 )
 
 var dbCmd = &cobra.Command{

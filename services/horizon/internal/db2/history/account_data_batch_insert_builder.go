@@ -1,8 +1,8 @@
 package history
 
 import (
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func (i *accountDataBatchInsertBuilder) Add(entry xdr.LedgerEntry) error {

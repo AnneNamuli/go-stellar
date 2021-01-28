@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // decodeResponse decodes the response from a request to a horizon server

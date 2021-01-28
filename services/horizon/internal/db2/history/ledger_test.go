@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/ingest/ledgerbackend"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/ingest/ledgerbackend"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/test"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/toid"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 func TestLedgerQueries(t *testing.T) {

@@ -8,14 +8,14 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/stellar/go/ingest"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ingest/processors"
-	"github.com/stellar/go/services/horizon/internal/ingest/verify"
-	"github.com/stellar/go/support/errors"
-	logpkg "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/ingest"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/db2/history"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest/processors"
+	"github.com/AnneNamuli/go-stellar/services/horizon/internal/ingest/verify"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	logpkg "github.com/AnneNamuli/go-stellar/support/log"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 const verifyBatchSize = 50000

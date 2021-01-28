@@ -1,8 +1,8 @@
 package history
 
 import (
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/AnneNamuli/go-stellar/support/db"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 // OperationBatchInsertBuilder is used to insert a transaction's operations into the

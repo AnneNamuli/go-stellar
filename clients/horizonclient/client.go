@@ -13,14 +13,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/txnbuild"
+	"github.com/AnneNamuli/go-stellar/txnbuild"
 
 	"github.com/manucorporat/sse"
 
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/protocols/horizon/operations"
-	"github.com/stellar/go/support/errors"
+	hProtocol "github.com/AnneNamuli/go-stellar/protocols/horizon"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/effects"
+	"github.com/AnneNamuli/go-stellar/protocols/horizon/operations"
+	"github.com/AnneNamuli/go-stellar/support/errors"
 )
 
 // sendRequest builds the URL for the given horizon request and sends the url to a horizon server

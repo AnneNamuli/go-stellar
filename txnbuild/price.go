@@ -3,9 +3,9 @@ package txnbuild
 import (
 	"strconv"
 
-	pricepkg "github.com/stellar/go/price"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	pricepkg "github.com/AnneNamuli/go-stellar/price"
+	"github.com/AnneNamuli/go-stellar/support/errors"
+	"github.com/AnneNamuli/go-stellar/xdr"
 )
 
 type price struct {
